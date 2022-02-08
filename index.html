@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="fontawesome-free-5.10.0-web/css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.10.0-web/css/solid.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.10.0-web/css/brands.css"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start task2 -->
+    <div class="div1">
+    <button type="button" id="btn1" onclick="clickedButton1()"><b>\</b></button>
+    <button type="button" id="btn2" onclick="clickedButton2()"><i class="fas fa-square-full fa-2x"></i></button>
+    <button type="button" id="btn3" onclick="clickedButton3()"><i class="fas fa-circle fa-2x"></i></button>
+
+<br><br>
+    
+    <svg width="500" height="500" style="border: 1px solid #B7DDE8" id="mySvg"></svg>
+</div>
+    <br><br>
+    <!-- end task2 -->
+
+
+    <!-- start task3 -->
+    <aside>
+
+        <label for="color">Fill style</label>
+        <br>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <label for="color2">stroke style</label>
+        <br>
+        <input type="color" name="color2" id="color2">
+        <br><br>
+    </aside>
+    <div class="mydiv">
+        <div class="btns">
+<button type="button" onclick="freeDraw()"><i class="fas fa-chart-line fa-2x"></i></button>
+<button type="button" onclick="drawline()" ><b>\</b></button>
+<button type="button" onclick="drawRec()" ><i class="fas fa-square-full fa-2x"></i></button>
+<button type="button"  onclick="drawCircle()"><i class="fas fa-circle fa-2x"></i></button>
+<button type="button" onclick="freeErease()"><i class="fas fa-eraser fa-2x"></i></button>
+</div>
+<br>
+<canvas id="my-canvas" width="700" height="400" style="border:2px solid #F59870;">
+    </canvas>
+</div>
+
+    <!-- end task3 -->
+    <script src="custom.js"></script>
+</body>
+</html>

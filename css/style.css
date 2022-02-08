@@ -1,0 +1,43 @@
+/* tas2 */
+.div1{
+    text-align: center;
+}
+
+/* task3 */
+aside {text-align: center;
+    color: #E08258;
+    width: 12%;
+    height: 470px;
+    display:inline-block;
+    background-color: #F2F2F2;
+    border: 2px solid #E08258;
+    font-size: 25px;
+    margin-left: 150px; 
+    padding: 20px 0;
+    
+  } 
+  .mydiv{
+  width:900px;
+  float: right;
+}
+  button{
+      background-color: #B7DEE8;
+      padding: 18px 45px;
+      margin-left: 5px;
+      border: 2px solid #487885;
+     
+  }
+  i{
+      color: #F16529;
+  }
+  .btns{
+      border: 2px solid #6B909A;
+      width: 75%;
+      background-color: #DBEEF4;
+      padding: 10px;
+      text-align: center;
+  }
+  b{color: #F16529;
+font-size: 22px;
+margin: 0px 10px;
+}
